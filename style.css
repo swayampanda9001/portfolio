@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+}
+.container{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.logo{
+    font-size: large;
+    font-weight: 800;
+}
+.links{
+    display: flex;
+    gap: 20px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+.contact-btn{
+    background: #000;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 100px 10px;
+    /* background-color: rgb(189, 195, 195); */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.front{
+    font-weight: 800;
+    font-size: 100px;
+    line-height: 90%;
+}
+.violet{
+    color: rgb(85, 41, 188);
+}
+.btn1{
+    padding: 15px;
+    background-color: rgb(85, 41, 188);
+    color: antiquewhite;
+    font-size: medium;
+    border-radius: 5px;
+    border: none;
+}
+.btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.btn2{
+    padding: 15px;
+    background-color: #fff;color: antiquewhite;
+    color: black;
+    font-size: medium;
+    border-radius: 5px;
+
+
+}
+.right{
+    width:500px;
+}
+.right img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.projects{
+    padding-bottom: 100px;
+}
+.projects h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.project{
+    width: 400px;
+    box-shadow: 0px 0px 20px rgb(194, 188, 188);
+}
+.project img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.message{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 75px 50px;
+    box-shadow: 0px 0px 20px rgb(173, 170, 170);
+}
+.message input{
+    height: 40px;
+    font-size: 20px;
+    padding: 0px 5px;
+}
+.onload{    
+    height: 40px;
+    background: rgb(85, 41, 188);
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.details{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.head{
+    font-size: 50px;
+    font-weight: 600;
+}
+.social-links{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.add{
+    font-size: medium;
+    font-weight: 700;
+}
